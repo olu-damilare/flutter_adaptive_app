@@ -9,8 +9,6 @@ class DesktopProductView extends StatelessWidget {
 
   const DesktopProductView({Key? key, required this.title, required this.crossAxisCount}) : super(key: key);
 
-
-
   @override
   Widget build(BuildContext context) {
 
@@ -43,7 +41,6 @@ class DesktopProductView extends StatelessWidget {
               ],
             ),
           )
-
         ],
       ),
       body: Padding(

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:shop_app/screens/mobile_product_view.dart';
 
 import 'screens/desktop_product_view.dart';
-import 'widgets/navigation_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,8 +35,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
-
     return LayoutBuilder(
       builder: (ctx, constraints){
         if(constraints.maxWidth < 600){
